@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  
+
 }
 
 img {
@@ -23,4 +25,110 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+
+.links {
+
+display: flex;
+justify-content: space-between;
+align-content: center;
+flex-shrink: 0;
+margin-left: 12px;
+
+
+
+}
+
+ul {
+
+display: flex;
+list-style: none;
+
+
+}
+
+.footer {
+
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+background-color: #EEEEEE;
+margin-top: 350px;
+margin-right: 2px;
+flex-wrap: wrap;
+flex-shrink: 0;
+padding: 10px;
+
+}
+
+.input {
+
+display: flex;
+justify-self: center;
+margin-top: 20px;
+
+
+}
+
+.buttons {
+
+display: flex;
+justify-content: center;
+margin-top: 20px;
+
+
+}
+
+.ologo {
+
+display: flex;
+justify-self: center;
+margin-top: 130px;
+
+
+}
+
+
+a {
+
+color: #696969;
+text-decoration: none;
+
+
+}
+
+button {
+
+padding: 10px;
+margin: 2px;
+
+
+}
+
+.header {
+
+padding: 12px;
+margin-right: 50px;
+gap: 50px;
+
+}
+
+.left-links, .right-links {
+
+
+gap: 12px;
+
+}
+
+.right-links {
+
+margin-right: 12px;
+
+}
+
+.left-links {
+
+margin-left: 12px;
+
 }
